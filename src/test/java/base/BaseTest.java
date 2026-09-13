@@ -15,8 +15,8 @@ public class BaseTest {
 
         driver= new ChromeDriver(); 
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-        driver.get("https://practicetestautomation.com");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+        driver.get("https://practicetestautomation.com/");
     }
     @AfterClass
     public void teardown(){
